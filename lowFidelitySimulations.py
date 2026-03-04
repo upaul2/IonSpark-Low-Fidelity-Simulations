@@ -1,3 +1,6 @@
+#Made by Aditya
+#Very very questionable
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.constants import e, k, m_e
