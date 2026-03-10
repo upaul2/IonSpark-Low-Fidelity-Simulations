@@ -30,7 +30,7 @@ A0 = 1.5414*10**(-6) #A/eV
 t0 = 1.06131 #correction for non-triangular barrier (??)
 Q = 0.35999 #eV nm
 
-#Forbes-Deana approx (?) of Fowler–Nordheim
+#Forbes-Deane approx (?) of Fowler–Nordheim
 def get_J_FN_precise(F, phi):
     v = (2.68754/phi)**(1/2)    
     #Schottky lowering factor (?)
