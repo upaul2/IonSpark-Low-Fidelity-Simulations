@@ -30,6 +30,7 @@ for _ in range(n_e):
 energies = np.array(energies)
 
 speeds = np.sqrt(2 * energies * e / m_e)
+print(speeds)
 a = np.random.uniform(0, 2*pi, n_e)
 b = np.random.uniform(0, pi, n_e)
 vx = speeds * np.sin(b) * np.cos(a)
