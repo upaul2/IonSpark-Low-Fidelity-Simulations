@@ -68,7 +68,7 @@ def J_murphy_good(F, phi, T):
 
 
 # -------- TEST PLOT --------
-
+"""
 phi = 4.5  # eV
 T = 300
 
@@ -82,3 +82,4 @@ plt.ylabel("Current density (A/m^2)")
 plt.title("Murphy-Good emission")
 plt.yscale("log")
 plt.show()
+"""
